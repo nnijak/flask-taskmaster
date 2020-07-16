@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h3 {
+  margin: 10px auto 10px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+td,
+th {
+  border: 1px solid #666;
+}
+
+th {
+  height: 30px;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+}
+
+#content {
+  width: 100%;
+}
